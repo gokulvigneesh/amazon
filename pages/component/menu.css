@@ -1,0 +1,156 @@
+.menu-container{
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    z-index: 998;
+    height:  40px;
+    background: #232F3E;
+  }
+  .sidebar {
+    position: relative;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 500px;
+    background-color: #f1f1f1;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+  }
+  
+  .sidebar.open {
+    transform: translateX(0);
+  }
+  
+  .menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+   
+  }
+  
+  .sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f1f1f1;
+    height: 800px;
+  }
+  
+  .sidebar-menu li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .sidebar-menu li:last-child {
+    border-bottom: none;
+  }
+  
+  .sidebar-menu li:hover {
+    background-color: #ddd;
+  }
+  .icon{
+    position: relative;
+    left: 165px;
+    top: -6px;
+    color: #ccc;
+    width: 30%;
+    height: 50%;
+  }
+  .close{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: #bebebe;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+  }
+  .close-icon{
+    position: relative;
+    left: 217px;
+    top: 10px;
+    height: 25px;
+    width: 25px;
+  }
+  .sidebar-item{
+    position: relative;
+    top: -52px;
+  }
+  .sidebar-msg{
+    height: 55px;
+    background-color: #232f3e;
+    position: relative;
+    top: -50px;
+  }
+  .hello{
+    padding: 20px 0px 0px 13px;
+    color: #ffffff;
+  }
+
+  
+  .menu1 {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     display: inline-flex;
+     flex-direction: row;
+     align-items: center;
+  
+  }
+
+  
+  .menu-item1 {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    color: #ffffff;
+    position: relative;
+    bottom: 485px;
+    right: 17px;
+  }
+  .menu-item  li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #666;
+    display: flex;
+
+  }
+  .menu-item li:last-child {
+    margin-bottom: 0;
+  }
+  .li1{
+    position: relative;
+    left: 100px;
+   }
+  .li2{
+   position: relative;
+   left: 130px;
+  }
+
+  .li3{
+    position: relative;
+    left: 160px;
+ 
+   }
+
+   .li4{
+    position: relative;
+    left: 190px;
+ 
+   }
+   .li5{
+    position: relative;
+    left: 220px;
+ 
+   }
+   .li6{
+    position: relative;
+    left: 250px;
+ 
+   }
